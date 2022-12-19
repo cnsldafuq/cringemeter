@@ -1,6 +1,6 @@
 const cringeLevel = {
     level1Words: [
-        "lol", "bruh", "lmao", "kek", "cringe", "lfmao", "lmaoo", "lfmaoo",
+        "lol", "bruh", "lmao", "kek", "cringe", "lfmao", "lmaoo", "lfmaoo", "xd",
     ],
     level1: [
         "😀", "😁", "😃", "😄", "😅", "😆", "😉",
