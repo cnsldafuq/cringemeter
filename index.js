@@ -6,7 +6,7 @@ const cringeLevel = {
         "😀", "😁", "😃", "😄", "😅", "😆", "😉",
     ],
     level2Words: [
-        "kpop", "xdd", "xddd", "xdddd", "xddddd", "xdddddd", "stfu", "su", "x)", "8)", "8d",
+        "kpop", "xdd", "xddd", "xdddd", "xddddd", "xdddddd", "stfu", "su", "x)", "8)", "8d", "milk", "yo"
     ],
     level2: [
         "🥱", "😴", "😒", "😜", "😝", "🥵",
