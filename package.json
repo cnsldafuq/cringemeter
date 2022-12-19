@@ -1,0 +1,15 @@
+{
+  "name": "cringemeter",
+  "version": "1.0.0",
+  "description": "e",
+  "main": "index.js",
+  "keywords": [
+    "cringe",
+    "meter",
+    "cringemeter",
+    "cringe-meter"
+  ],
+  "author": "C0NS0LE_#6999",
+  "repository": "https://github.com/zC0NS0LE/cringemeter",
+  "license": "ISC"
+}
