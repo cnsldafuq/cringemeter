@@ -1,7 +1,7 @@
 {
   "name": "cringemeter",
-  "version": "1.0.0",
-  "description": "e",
+  "version": "1.0.2",
+  "description": "Cringemeter is a module for node.js that determine the level of cringeworthiness of a given string of text.",
   "main": "index.js",
   "keywords": [
     "cringe",

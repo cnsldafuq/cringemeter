@@ -27,7 +27,7 @@ function Cringemeter(text) {
     let textArr1 = [...text];
     let textArr2 = text.split(" ");
 
-    let lvl1Count = (textArr1.filter(char => cringeLevel.level1.includes(char))).length + (textArr1.filter(char => cringeLevel.level1Words.includes(char))).length;
+    let lvl1Count = (textArr1.filter(char => cringeLevel.level1.includes(char))).length + (textArr2.filter(char => cringeLevel.level1Words.includes(char))).length;
     let lvl2Count = (textArr1.filter(char => cringeLevel.level2.includes(char))).length + (textArr2.filter(char => cringeLevel.level2Words.includes(char))).length;
     let lvl3Count = (textArr1.filter(char => cringeLevel.level3.includes(char))).length + (textArr2.filter(char => cringeLevel.level3Words.includes(char))).length;
 
