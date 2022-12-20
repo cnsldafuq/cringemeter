@@ -47,6 +47,7 @@ const { Cringemeter } = require("cringemeter");
 // I didn't put the declarations for the client and discord.js 
 
 client.on("interactionCreate", async (interaction) => {
+	if(typeof message.content == "undefined" || message.author.bot) return; // Return if the message has no content or if the author is a bot
 	if(Cringemeter(message.content) > .5) {
         message.delete();
         message.channel.send(`Don't be cringe <@${message.author.id}>!`);
