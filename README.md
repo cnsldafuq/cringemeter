@@ -46,7 +46,7 @@ Or even for a moderation Discord bot with discord.js:
 const { Cringemeter } = require("cringemeter");
 // I didn't put the declarations for the client and discord.js 
 
-client.on("messageCreate", async (interaction) => {
+client.on("messageCreate", async (message) => {
 	if(typeof message.content == "undefined" || message.author.bot) return; // Return if the message has no content or if the author is a bot
 	if(Cringemeter(message.content) > .5) {
         message.delete();
